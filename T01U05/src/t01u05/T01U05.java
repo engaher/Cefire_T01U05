@@ -27,6 +27,11 @@ public class T01U05 {
             p.setNombre(nombre);
             personas[i]= p;
         }
+        
+        //// Mostrar personas
+         for(int i = 0; i < personas.length; i++){
+            System.out.println(personas[i]);
+        }
     }
     
 }
