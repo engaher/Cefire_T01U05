@@ -12,6 +12,11 @@ public class Persona {
     public Persona() {
     }
 
+    public Persona(String nif, String nombre) {
+        this.nif = nif;
+        this.nombre = nombre;
+    }
+
     public String getNif() {
         return nif;
     }
